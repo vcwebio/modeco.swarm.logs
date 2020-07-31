@@ -1,0 +1,12 @@
+#!/usr/bi/env bash
+
+export CONTECO_LABEL="swarm.logs - ModEco"
+export CONTECO_DESCRIPTION="The swarm log processing module, generation 1."
+
+export CONTECO_TYPE="swarm"
+export CONTECO_NAME="logs"
+export CONTECO_TAG="v1.0.0"
+export CONTECO_TAG_TYPE="incremental"
+
+export CONTECO_BASE="image.wrapper"
+export CONTECO_BUILD="modeco"
